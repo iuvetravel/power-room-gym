@@ -14,17 +14,23 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
     />
-    <title>The Power Room</title>
+    <title>Power Room</title>
   </head>
   <body class="text-gray-800 antialiased">
-    <!-- NavBar -->
+    <!-- Nav Bar -->
+
     <nav
-      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3"
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-4"
     >
       <div
         class="container px-4 mx-auto flex flex-wrap items-center justify-between"
@@ -33,8 +39,8 @@
           class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
         >
           <a
-            class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-orange-500"
-            href="#"
+            class="text-lg text-orange-500 font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            href="index.html"
             >The Power Room</a
           ><button
             class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -50,6 +56,7 @@
         >
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
             <!-- Icon 1 -->
+
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
@@ -60,7 +67,9 @@
                 ><span class="lg:hidden inline-block ml-2">Share</span></a
               >
             </li>
+
             <!-- Icon 2 -->
+
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
@@ -71,59 +80,65 @@
                 ><span class="lg:hidden inline-block ml-2">Tweet</span></a
               >
             </li>
+
             <!-- Icon 3 -->
+
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="text-orange-500 fab fa-instagram text-lg leading-lg"
+                  class="text-orange-500 fab fa-instagram-square text-lg leading-lg"
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Profile</span></a
               >
             </li>
-            <!-- End Icons -->
           </ul>
+
+          <!-- End of Icons -->
         </div>
       </div>
     </nav>
+
     <!-- Main Area -->
+
     <main>
       <!-- Hero -->
+
       <div
         class="relative pt-16 pb-32 flex content-center items-center justify-center"
-        style="min-height: 100vh"
+        style="min-height: 95vh"
       >
         <div
-          class="absolute top-0 right-0 w-full h-full bg-top bg-cover"
-          style="
-            background-image: url('images/power1.jpg');
-          "
+          class="absolute top-0 w-full h-full bg-top p-100 bg-cover"
+          style="background-image: url('images/power1.jpg')"
         >
           <span
             id="blackOverlay"
             class="w-full h-full absolute opacity-75 bg-black"
           ></span>
         </div>
-        <div class="container relative mx-auto" data-aos="fade-in">
+        <div
+          class="container relative mx-auto"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
+        >
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <!-- <div class="pr-12"> -->
-                <h1 class="text-white font-semibold text-5xl">
-                  Feel the <span class="text-orange-500">Power</span>
-                </h1>
-                <p class="mt-4 text-lg text-gray-300">
-                  We know serious fitness is hard, but that doesn’t mean it
-                  can’t be an edge-of-your-seat, can’t-get-enough,
-                  look-forward-to-your-workouts party. Download our complete
-                  broshure to get started today!
-                </p>
-                <a
-                  href="#"
-                  class="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 curious"
-                  >Download Broshure</a
-                >
-              </div>
+              <h1 class="text-white font-bold text-5xl">
+                Feel the <span class="text-orange-500">Power</span>
+              </h1>
+              <p class="mt-4 text-lg text-gray-300">
+                Welcome to The Power Room. We are a fitness and training center
+                that focuses on pushing you to your absolute limit. Download our
+                complete broshure to get started today!
+              </p>
+              <a
+                href="#"
+                class="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor:pointer"
+                >Download Broshure</a
+              >
             </div>
           </div>
         </div>
@@ -140,31 +155,35 @@
             x="0"
             y="0"
           >
-            <polygon <!-- class="text-gray-300 fill-current" -->
-              points="2560 0 2560 100 0 100" >
-            </polygon>
+            <polygon points="2560 0 2560 100 0 100"></polygon>
           </svg>
         </div>
       </div>
-      
+
       <!-- About Section -->
 
       <section id="about" class="relative py-20 bg-black text-white">
-        
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right">
+            <div
+              class="w-full md:w-4/12 ml-auto mr-auto px-4"
+              data-aos="zoom-in-down"
+            >
               <img
                 alt="..."
                 class="max-w-full rounded-lg shadow-lg"
                 src="images/power2.jpg"
               />
             </div>
-            <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
+            <div
+              class="w-full md:w-5/12 ml-auto mr-auto px-4"
+              data-aos="flip-left"
+            >
               <div class="md:pr-12">
-               
                 <small class="text-orange-500">About our gym</small>
-                <h3 class="text-4xl uppercase font-bold">Safe Body Building</h3>
+                <h3 class="text-4xl uppercase font-bold text-orange-500">
+                  Safe Body Building
+                </h3>
                 <p class="mt-4 text-lg leading-relaxed">
                   The extension comes with three pre-built pages to help you get
                   started faster. You can change the text and images and you're
@@ -181,7 +200,7 @@
                       </div>
                       <div>
                         <h4 class="text-xl">
-                          The latest & greatest gym equipments
+                          The latest & greatest gym equipment
                         </h4>
                       </div>
                     </div>
@@ -222,81 +241,201 @@
       </section>
 
       <!-- Trainers Section -->
-      <section class="pt-20 pb-48">
+
+      <section class="pt-20 pb-48 bg-orange-500">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center text-center mb-24">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold uppercase">
-                Meet our Trainers
+              <h2 class="text-4xl uppercase font-bold text-black">
+                Meet our trainers
               </h2>
               <p class="text-lg leading-relaxed m-4">
                 Our trainers are here to dedicate the time and effort that you
-                need to get in the best shape of your life
+                need to get you in the best shape of your life.
               </p>
             </div>
           </div>
-          <!-- Trainer Card Wrapper -->
+
+          <!-- Trainer Cards Wrapper -->
+
           <div class="flex flex-wrap">
             <!-- Card 1 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+
+            <div
+              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-5 px-4"
+              data-aos="flip-left"
+            >
+              <!-- for 3 columns and media screens -->
+              <!-- <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"> -->
+              <!-- end for 3 columns and media screens -->
               <div class="px-6">
                 <img
                   alt="..."
                   src="images/power3.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 250px"
+                  style="max-width: 300px"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Mr. Tompson</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    "Watchman"
+                  <h5 class="text-xl font-bold">Ryan Tompson</h5>
+                  <p class="mt-1 text-sm text-white uppercase font-semibold">
+                    "The Ruller"
                   </p>
-                  
+                  <div class="mt-6">
+                    <button
+                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-twitter"></i></button
+                    ><button
+                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-facebook-f"></i></button
+                    ><button
+                      class="bg-gray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </button>
+                    <hr />
+                  </div>
                 </div>
               </div>
             </div>
+
             <!-- Card 2 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-down">
+
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <!-- for 3 columns and media screens -->
+              <!-- <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"> -->
+              <!-- end for 3 columns and media screens -->
               <div class="px-6">
                 <img
                   alt="..."
                   src="images/power4.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 250px"
+                  data-aos="flip-up"
+                  style="max-width: 300px"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Miss Romina</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <h5 class="text-xl font-bold">Romina Hadid</h5>
+                  <p class="mt-1 text-sm text-white uppercase font-semibold">
                     "Sparrow"
                   </p>
-                  
+                  <div class="mt-6">
+                    <button
+                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-google text-white"></i></button
+                    ><button
+                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </button>
+                    <hr />
+                  </div>
                 </div>
               </div>
             </div>
+
             <!-- Card 3 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"  data-aos="flip-right">
+
+            <div
+              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-down"
+            >
+              <!-- for 3 columns and media screens -->
+              <!-- <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"> -->
+              <!-- end for 3 columns and media screens -->
               <div class="px-6">
                 <img
                   alt="..."
                   src="images/power5.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 250px"
+                  style="max-width: 300px"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Mr Alex</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                  <h5 class="text-xl font-bold">Alex Smith</h5>
+                  <p class="mt-1 text-sm text-white uppercase font-semibold">
                     "Black Panther"
                   </p>
                   <div class="mt-6">
-                    
+                    <button
+                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-google"></i></button
+                    ><button
+                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-twitter"></i></button
+                    ><button
+                      class="bg-gray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </button>
+                    <hr />
                   </div>
                 </div>
               </div>
             </div>
-           
+
+            <!-- Card 4 -->
+            <!-- delete this div class for 3 columns(cards) -->
+            <div
+              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="images/power6.jpg"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 300px"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Jenna Kardi</h5>
+                  <p class="mt-1 text-sm text-white uppercase font-semibold">
+                    "Sunshine Spot"
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-dribbble"></i></button
+                    ><button
+                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-google"></i></button
+                    ><button
+                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-twitter"></i></button
+                    ><button
+                      class="bg-gray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </button>
+                    <hr />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End Cards -->
           </div>
         </div>
       </section>
+
+      <!-- End Trainers Section -->
 
       <!-- Contact Header Section -->
 
@@ -314,24 +453,21 @@
             x="0"
             y="0"
           >
-            <polygon class="text-black fill-current"
-              points="2560 0 2560 100 0 100" >
-            </polygon>
+            <polygon points="2560 0 2560 100 0 100"></polygon>
           </svg>
         </div>
         <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pb-20 pt-20">
           <div class="flex flex-wrap text-center justify-center">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-orange-500 uppercase">
+              <h2 class="text-4xl uppercase font-bold text-orange-500">
                 Contact Us
               </h2>
-              <p class="text-lg leading-relaxed mt-4 mb-4">
+              <p class="text-lg leading-relaxed mt-4 mb-4 text-white">
                 Contact us to ask any questions, aquire a membership, talk to
-                our trainers or make an apointement.
+                our trainers or anything about healthy living.
               </p>
             </div>
           </div>
-         
         </div>
       </section>
 
@@ -342,15 +478,17 @@
           <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
             <div class="w-full lg:w-6/12 px-4">
               <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300" data-aos="fade-up-right">
+                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
+                data-aos="fade-up-right"
+              >
                 <div class="flex-auto p-5 lg:p-10 bg-orange-500 text-white">
                   <h4 class="text-2xl font-semibold">Want to work with us?</h4>
-                  <p class="leading-relaxed mt-1 mb-4">
+                  <p class="leading-relaxed mt-1 mb-4 text-white">
                     Complete this form and we will get back to you in 24 hours.
                   </p>
                   <div class="relative w-full mb-3 mt-8">
                     <label
-                      class="block uppercase text-xs font-bold mb-2"
+                      class="block uppercase text-white text-xs font-bold mb-2"
                       for="full-name"
                       >Full Name</label
                     ><input
@@ -362,7 +500,7 @@
                   </div>
                   <div class="relative w-full mb-3">
                     <label
-                      class="block uppercase text-xs font-bold mb-2"
+                      class="block uppercase text-white text-xs font-bold mb-2"
                       for="email"
                       >Email</label
                     ><input
@@ -374,7 +512,7 @@
                   </div>
                   <div class="relative w-full mb-3">
                     <label
-                      class="block uppercase text-xs font-bold mb-2"
+                      class="block uppercase text-white text-xs font-bold mb-2"
                       for="message"
                       >Message</label
                     ><textarea
@@ -386,7 +524,7 @@
                   </div>
                   <div class="text-center mt-6">
                     <button
-                      class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                      class="bg-black text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-2xl outline-none focus:outline-none mr-1 mb-1 text-orange-500"
                       type="button"
                       style="transition: all 0.15s ease 0s"
                     >
@@ -401,7 +539,7 @@
       </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer Area -->
 
     <footer class="relative bg-orange-500 pt-8 pb-6">
       <div
@@ -426,35 +564,41 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4">
-            <h4 class="text-3xl font-semibold text-orange-500">
-              Let's keep in touch!
+            <h4 class="text-2xl font-bold uppercase text-black">
+              Follow Us on Social Media!
             </h4>
-            <h5 class="text-lg mt-0 mb-2 text-white">
+            <h5 class="text-sm mt-0 mb-2 text-white">
               Find us on any of these platforms, we respond 1-2 business days.
             </h5>
             <div class="mt-6">
               <button
-                class="bg-white text-orange-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <i class="flex fab fa-twitter"></i></button
+                <i class="flex fab fa-twitter text-black"></i></button
               ><button
-                class="bg-white text-orange-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <i class="flex fab fa-facebook-square"></i></button
+                <i class="flex fab fa-facebook text-black"></i></button
               ><button
-                class="bg-white text-orange-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <i class="flex fab fa-instagram"></i>
+                <i class="flex fab fa-dribbble text-black"></i></button
+              ><button
+                class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-instagram-square"></i>
               </button>
             </div>
           </div>
+
           <div class="w-full lg:w-6/12 px-4">
             <div class="flex flex-wrap items-top mb-6">
               <div class="w-full lg:w-4/12 px-4 ml-auto">
-                <span class="block uppercase text-white text-sm font-bold mb-2"
+                <span class="block uppercase text-black text-xl font-bold mb-2"
                   >Useful Links</span
                 >
                 <ul class="list-unstyled">
@@ -468,7 +612,7 @@
                   <li>
                     <a
                       class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://blog.creative-tim.com"
+                      href="#"
                       >Trainers</a
                     >
                   </li>
@@ -476,28 +620,28 @@
                     <a
                       class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
                       href="#"
-                      >Equipements</a
+                      >Equipments</a
                     >
                   </li>
                   <li>
                     <a
                       class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
                       href="#"
-                      >Free Training</a
+                      >Brochures</a
                     >
                   </li>
                 </ul>
               </div>
               <div class="w-full lg:w-4/12 px-4">
-                <span class="block uppercase text-white text-sm font-bold mb-2"
+                <span class="block uppercase text-black text-xl font-bold mb-2"
                   >Other Resources</span
                 >
                 <ul class="list-unstyled">
                   <li>
                     <a
                       class="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
-                      >Our License</a
+                      href="#"
+                      >Trainer License</a
                     >
                   </li>
                   <li>
@@ -526,14 +670,18 @@
             </div>
           </div>
         </div>
-        <hr class="my-6 border-black" />
+        <hr class="my-6 border-white" />
         <div
           class="flex flex-wrap items-center md:justify-between justify-center"
         >
           <div class="w-full md:w-4/12 px-4 mx-auto text-center">
             <div class="text-sm text-white font-semibold py-1">
-              Copyright © 2021 The Power Room
-              <a href="#"></a>
+              Copyright © 2021 -
+              <a
+                href="index.html"
+                class="text-gwhite hover:text-gray-900 font-bold"
+                >The Power Room</a
+              >
             </div>
           </div>
         </div>
@@ -546,12 +694,16 @@
       document.getElementById(collapseID).classList.toggle("block");
     }
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous"
+  ></script>
   <script>
     AOS.init({
-      delay: 500,
+      delay: 200,
       duration: 1200,
-      once: false
-    })
+      once: false,
+    });
   </script>
 </html>
